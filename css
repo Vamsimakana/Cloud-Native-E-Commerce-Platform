@@ -1,0 +1,18 @@
+cloud-native-ecommerce/
+├─ backend/
+│  ├─ app/
+│  │  ├─ main.py
+│  │  ├─ models.py
+│  │  ├─ schemas.py
+│  │  ├─ db.py
+│  │  └─ requirements.txt
+│  └─ Dockerfile
+├─ frontend/
+│  ├─ package.json
+│  ├─ src/
+│  │  ├─ main.jsx
+│  │  └─ components/ProductList.jsx
+│  └─ Dockerfile
+├─ docker-compose.yml
+├─ .gitignore
+└─ README.md
